@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form class="feedback-form js-feedback-form">
+      <div class="five columns">
+        <div>
+          <label for="exampleNameInput">Your Name</label>
+          <input
+            name="userName"
+            class="u-full-width"
+            type="text"
+            placeholder="User name"
+            id="exampleNameInput"
+          />
+        </div>
+
+        <div>
+          <label for="exampleEmailInput">Your Email</label>
+          <input
+            name="userEmail"
+            class="u-full-width"
+            type="text"
+            placeholder="User email"
+            id="exampleEmailInput"
+          />
+        </div>
+
+        <div>
+          <label for="exampleAdressInput">Your Email</label>
+          <input
+            name="userAdress"
+            class="u-full-width"
+            type="text"
+            placeholder="User adress"
+            id="exampleAdressInput"
+          />
+        </div>
+
+        <div>
+          <label for="exampleMessage">Message</label>
+          <textarea
+            name="message"
+            class="u-full-width"
+            placeholder="Hi Dave …"
+            id="exampleMessage"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+      </div>
+      <input class="button-primary" type="submit" value="Submit" />
+    </form>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
